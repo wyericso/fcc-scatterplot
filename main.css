@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin: 40px;
+}
+
+svg {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#legend {
+    position: absolute;
+    font-size: 10px;
+    padding: 10px;
+    line-height: 2em;
+}
+
+#tooltip {
+    position: absolute;
+    font-size: 10px;
+    background-color: dimgrey;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
